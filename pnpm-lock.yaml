@@ -1,0 +1,71 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    devDependencies:
+      prettier:
+        specifier: ^3.8.1
+        version: 3.8.1
+      prettier-plugin-package:
+        specifier: ^2.0.0
+        version: 2.0.0(prettier@3.8.1)
+      prettier-plugin-sh:
+        specifier: ^0.18.0
+        version: 0.18.0(prettier@3.8.1)
+
+packages:
+
+  '@reteps/dockerfmt@0.3.6':
+    resolution: {integrity: sha512-Tb5wIMvBf/nLejTQ61krK644/CEMB/cpiaIFXqGApfGqO3GwcR3qnI0DbmkFVCl2OyEp8LnLX3EkucoL0+tbFg==}
+    engines: {node: ^v12.20.0 || ^14.13.0 || >=16.0.0}
+
+  prettier-plugin-package@2.0.0:
+    resolution: {integrity: sha512-d7v5sEUf9AIBYmsjn6kzy9xugvoutgk+pdt1/l3opACE5uHS30LzApezcoHYqDJtvcSPj8SCY/50WIiVYmH3+Q==}
+    engines: {node: '>=20.19.0'}
+    peerDependencies:
+      prettier: ^3.0.0
+
+  prettier-plugin-sh@0.18.0:
+    resolution: {integrity: sha512-cW1XL27FOJQ/qGHOW6IHwdCiNWQsAgK+feA8V6+xUTaH0cD3Mh+tFAtBvEEWvuY6hTDzRV943Fzeii+qMOh7nQ==}
+    engines: {node: '>=16.0.0'}
+    peerDependencies:
+      prettier: ^3.6.0
+
+  prettier@3.8.1:
+    resolution: {integrity: sha512-UOnG6LftzbdaHZcKoPFtOcCKztrQ57WkHDeRD9t/PTQtmT0NHSeWWepj6pS0z/N7+08BHFDQVUrfmfMRcZwbMg==}
+    engines: {node: '>=14'}
+    hasBin: true
+
+  sh-syntax@0.5.8:
+    resolution: {integrity: sha512-JfVoxf4FxQI5qpsPbkHhZo+n6N9YMJobyl4oGEUBb/31oQYlgTjkXQD8PBiafS2UbWoxrTO0Z5PJUBXEPAG1Zw==}
+    engines: {node: '>=16.0.0'}
+
+  tslib@2.8.1:
+    resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
+
+snapshots:
+
+  '@reteps/dockerfmt@0.3.6': {}
+
+  prettier-plugin-package@2.0.0(prettier@3.8.1):
+    dependencies:
+      prettier: 3.8.1
+
+  prettier-plugin-sh@0.18.0(prettier@3.8.1):
+    dependencies:
+      '@reteps/dockerfmt': 0.3.6
+      prettier: 3.8.1
+      sh-syntax: 0.5.8
+
+  prettier@3.8.1: {}
+
+  sh-syntax@0.5.8:
+    dependencies:
+      tslib: 2.8.1
+
+  tslib@2.8.1: {}

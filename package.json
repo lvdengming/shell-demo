@@ -1,0 +1,27 @@
+{
+  "name": "shell-demo",
+  "version": "0.0.1",
+  "description": "A shell scripts demo collections",
+  "license": "MIT",
+  "author": "lvdengming@foxmail.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "prettier": "^3.8.1",
+    "prettier-plugin-package": "^2.0.0",
+    "prettier-plugin-sh": "^0.18.0"
+  },
+  "prettier": {
+    "printWidth": 80,
+    "tabWidth": 2,
+    "trailingComma": "all",
+    "singleQuote": true,
+    "plugins": [
+      "prettier-plugin-package",
+      "prettier-plugin-sh"
+    ]
+  }
+}
