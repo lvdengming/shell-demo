@@ -1,0 +1,28 @@
+# 常用的 55 个 Linux Shell 脚本
+
+## Shell 基础案例
+
+1. [输出 Hello World](./base_cases/1.sh)
+2. [打印运行的 node 进程](./base_cases/2.sh)
+3. [获取并打印参数](./base_cases/3.sh)
+4. [用脚本写 for 循环](./base_cases/4.sh)
+5. [使用 C 语言风格的 for 命令](./base_cases/5.sh)
+6. [while 循环案例](./base_cases/6.sh)
+7. [使用 break 跳出外部循环](./base_cases/7.sh)
+8. [使用 continue 命令](./base_cases/8.sh)
+9. [case 案例](./base_cases/9.sh)
+10. [判断两个数是否相等](./base_cases/10.sh)
+11. [使用双圆括号](./base_cases/11.sh)
+12. [使用双方括号](./base_cases/12.sh)
+13. [反引号的使用](./base_cases/13.sh)
+14. [字符串比较](./base_cases/14.sh)
+15. [读取列表中的值](./base_cases/15.sh)
+16. [打印九九乘法表](./base_cases/16.sh)
+17. [编写求和函数、求积函数](./base_cases/17.sh)
+18. [编写猜数字游戏](./base_cases/18.sh)
+19. [编写剪刀、石头、布游戏](./base_cases/19.sh)
+20. [检测当前用户是否为管理员](./base_cases/20.sh)
+21. [接收参数](./base_cases/21.sh)
+22. [读取控制台传入的参数](./base_cases/22.sh)
+23. [获取用户输入](./base_cases/23.sh)
+24. [根据计算机当前时间，返回问候语](./base_cases/24.sh)
